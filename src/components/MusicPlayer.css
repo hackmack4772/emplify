@@ -1,0 +1,40 @@
+/* src/components/MusicPlayer.css */
+.music-player {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.input-section, .controls, .search-section {
+    margin: 10px 0;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.now-playing {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #007BFF; /* Blue color for now playing */
+}
+
+.active-song {
+    font-weight: bold; /* Make the current song bold */
+    color: #FF5733; /* Highlight color for the active song */
+}
