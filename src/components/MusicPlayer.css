@@ -1,40 +1,58 @@
-/* src/components/MusicPlayer.css */
 .music-player {
-    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border-radius: 10px;
     padding: 20px;
-}
-
-.input-section, .controls, .search-section {
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .current-song {
     margin: 10px 0;
-}
-
-input {
-    margin: 5px;
-    padding: 5px;
-}
-
-button {
-    margin: 5px;
-    padding: 5px 10px;
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  
+  .control-button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
     cursor: pointer;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-.now-playing {
-    margin: 20px 0;
-    font-weight: bold;
-    color: #007BFF; /* Blue color for now playing */
-}
-
-.active-song {
-    font-weight: bold; /* Make the current song bold */
-    color: #FF5733; /* Highlight color for the active song */
-}
+    transition: background-color 0.3s;
+  }
+  
+  .control-button:hover {
+    background-color: #1aa34a;
+  }
+  
+  .volume-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .volume-control input {
+    margin-left: 10px;
+  }
+  
+  .progress-bar {
+    margin-top: 10px;
+  }
+  
+  .progress-bar input {
+    width: 100%;
+  }
+  
